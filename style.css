@@ -1,5 +1,6 @@
 body{
 	background-image:url(wood-backing.jpg);
+	background-image:cover;
 	display:flex;
 	flex-wrap:wrap;
 	overflow-x:hidden;
@@ -61,7 +62,7 @@ box-shadow: 0px 4px 6px #333;
 -moz-box-shadow: 0px 4px 6px #333;
 -webkit-box-shadow: 0px 4px 6px #333;
 flex-wrap:wrap;
-
+background: -webkit-linear-gradient(top, #CCEFF0  58%,  white  100%);
 }
 header{
 	background-color:#fefabc;
@@ -93,16 +94,11 @@ max-height:600px;
 flex:1;
 float:left;
 margin:3px;
--moz-transform: rotate(4deg);
--webkit-transform: rotate(4deg);
--o-transform: rotate(4deg);
--ms-transform: rotate(4deg);
-transform: rotate(4deg);
-
 box-shadow: 0px 4px 6px #333;
 -moz-box-shadow: 0px 4px 6px #333;
 -webkit-box-shadow: 0px 4px 6px #333;
 flex-wrap:wrap;
+background: -webkit-linear-gradient(top, #FFD3D0  70%,  #f198bb  100%);
 }
 
 .preamble::before{
@@ -122,10 +118,10 @@ max-height:400px;
 margin:3px;
 float:right;
 overflow:scroll;
--moz-transform: rotate(-5deg);
--webkit-transform: rotate(-5deg);
--o-transform: rotate(-5deg);
--ms-transform: rotate(-5deg);
+-moz-transform: rotate(-10deg);
+-webkit-transform: rotate(-10deg);
+-o-transform: rotate(-10deg);
+-ms-transform: rotate(-10deg);
 transform: rotate(-5deg);
 box-shadow: 0px 4px 6px #333;
 -moz-box-shadow: 0px 4px 6px #333;
@@ -149,6 +145,11 @@ max-height:400px;
 margin:3px;
 float:left;
 overflow:scroll;
+
+-moz-transform: rotate(-8deg);
+-webkit-transform: rotate(-8deg);
+-o-transform: rotate(-8deg);
+-ms-transform: rotate(-8deg);
 box-shadow: 0px 4px 6px #333;
 -moz-box-shadow: 0px 4px 6px #333;
 -webkit-box-shadow: 0px 4px 6px #333;
@@ -171,16 +172,17 @@ max-height:500px;
 float:right;
 margin:3px;
 overflow:scroll;
--moz-transform: rotate(3deg);
--webkit-transform: rotate(3deg);
--o-transform: rotate(3deg);
--ms-transform: rotate(3deg);
-transform: rotate(3deg);
+-moz-transform: rotate(-2deg);
+-webkit-transform: rotate(-2deg);
+-o-transform: rotate(-2deg);
+-ms-transform: rotate(-2deg);
+transform: rotate(-2deg);
 
-box-shadow: 0px 4px 6px #333;
+box-shadow: 0px 4px 6px #333; #ffdc60
 -moz-box-shadow: 0px 4px 6px #333;
 -webkit-box-shadow: 0px 4px 6px #;
 flex-wrap:wrap;
+
 }
 .benefits::before{
 	content:url(img/blue-pin.png);
@@ -230,6 +232,7 @@ box-shadow: 0px 4px 6px #333;
 -moz-box-shadow: 0px 4px 6px #333;
 -webkit-box-shadow: 0px 4px 6px #333;
 flex-wrap:wrap;
+background: -webkit-linear-gradient(top, #ffdc60  70%,  #fefabc  100%);
 }
 footer::before{
 content:url(img/green-pin.png);
